@@ -1,0 +1,27 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "gulp-svgmin": "^1.2.4"
+  },
+  "name": "svgo-gulp-task",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimaBur/svgo-gulp-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimaBur/svgo-gulp-task/issues"
+  },
+  "homepage": "https://github.com/DimaBur/svgo-gulp-task#readme",
+  "description": ""
+}
