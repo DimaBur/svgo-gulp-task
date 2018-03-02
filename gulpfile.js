@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var svgmin = require('gulp-svgmin');
 
 gulp.task('default', function () {
-  return gulp.src('input/*.svg')
+  return gulp.src('input/**/*.svg')
       .pipe(svgmin({
         plugins: [{
           cleanupAttrs: true
@@ -15,7 +15,7 @@ gulp.task('default', function () {
         },{
           removeMetadata: true
         },{
-          removeTitle: false//
+          removeTitle: true//
         },{
           removeDesc: true
         },{
@@ -55,9 +55,9 @@ gulp.task('default', function () {
             force: true
           },
         },{
-          addAttributesToSVGElement: {
+          addAttributesToSVGElement: false/*{
             attribute: 'class="avatar_svg"'
-          },
+          }*/,
         },{
           cleanupNumericValues: true
         },{
